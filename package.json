@@ -1,0 +1,21 @@
+{
+  "name": "hackattic",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Hemanth-002/Hackattic.git",
+  "author": "Hemanth-002 <hemanth.sairam@fullness.io>",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "jimp": "^0.22.12",
+    "node": "^22.0.0",
+    "nodemon": "^3.1.0",
+    "qrcode-reader": "^1.0.4"
+  }
+}
